@@ -39,7 +39,7 @@ jobs:
           rm -rf gitops
           
           # Clone repository using HTTPS URL without token
-          git clone https://github.com/gulinux86/kubernetes-cicd.git gitops
+          git clone https://github.com/gulinux86/grade-api-gitops.git gitops
           cd gitops
           
           if [[ "$OSTYPE" == "darwin"* ]]; then
