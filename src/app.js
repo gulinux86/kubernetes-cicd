@@ -6,7 +6,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors());
 
-let grades = [];
+let grades = ["teste"];
 
 app.get('/grades', (req, res) => {
   console.log('Received GET request for grades');
